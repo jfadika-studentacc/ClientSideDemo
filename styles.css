@@ -1,0 +1,96 @@
+/* Matches the tutorial's demo: dark maroon background, Montserrat type,
+   #A8FF35 green CTA button. */
+
+body {
+  background-color: #2A0A0A;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+}
+
+.navbar {
+  padding: 1.5rem 0;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #FFFFFF !important;
+}
+
+.navbar-nav .nav-link {
+  color: #FFFFFF !important;
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #A8FF35 !important;
+}
+
+/* Homepage hero */
+.hero {
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: clamp(2rem, 5vw, 3.75rem); /* 3.75rem = 60px on desktop, per spec */
+  margin-bottom: 1.875rem; /* 30px, per spec */
+}
+
+.hero-sub {
+  font-size: clamp(1.25rem, 2.5vw, 2rem); /* 2rem = 32px on desktop, per spec */
+  max-width: 640px;
+  margin: 0 auto 2rem;
+}
+
+.btn-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 57px;
+  background-color: #A8FF35;
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  text-decoration: none;
+}
+
+.btn-cta:hover {
+  background-color: #8FE01E;
+  color: #000000;
+}
+
+/* About / Contact pages */
+.page-header {
+  padding: 4rem 0;
+}
+
+.page-header h1 {
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+  margin-bottom: 1.5rem;
+}
+
+.body-text {
+  font-size: 1rem;
+  max-width: 760px;
+  margin-bottom: 2rem;
+}
+
+.meta-line {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.meta-line a {
+  color: #A8FF35;
+}
+
+.meta-line a:hover {
+  color: #FFFFFF;
+}
